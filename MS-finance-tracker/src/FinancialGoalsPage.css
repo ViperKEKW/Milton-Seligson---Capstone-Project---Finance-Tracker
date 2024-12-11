@@ -1,0 +1,108 @@
+/* src/FinancialGoalsPage.css */
+
+.financial-goals-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #2c2c2c;
+  color: white;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.add-goal-section {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.goal-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  width: 250px;
+  max-width: 90%;
+  background-color: #444;
+  color: white;
+}
+
+.add-goal-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-goal-button:hover {
+  background-color: #0056b3;
+}
+
+.goals-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.goal-item {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.goal-item h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.goal-item p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.progress-slider {
+  width: 100%;
+  margin-top: 10px;
+  appearance: none;
+  height: 8px;
+  border-radius: 5px;
+  background: #555;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.progress-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+}
+
+.progress-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #007bff;
+  cursor: pointer;
+}
+
+.error-message {
+  color: #ff4d4d;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,64 @@
+/* Set dark grey background for the page */
+body {
+    background-color: #2c2c2c;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .welcome-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: white;
+  }
+  
+  /* Styling for the Welcome Message */
+  .welcome-message {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Mission Section Styling */
+  .mission-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mission-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .mission-section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Button Styling */
+  .welcome-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .welcome-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
